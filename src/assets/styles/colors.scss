@@ -6,3 +6,8 @@ $clr-natural-dark: #323232;
 
 $simple-gradient: $clr-primary, $clr-secondary;
 $complex-gradient: $clr-primary, $clr-secondary, $clr-accent;
+
+@mixin color-scheme($text, $bg) {
+  background-color: $bg;
+  color: $text;
+}
