@@ -1,3 +1,5 @@
+@use 'sass:list';
+
 $clr-primary: #4E2A40;
 $clr-secondary: #876472;
 $clr-accent: #F67673;
@@ -7,7 +9,16 @@ $clr-natural-dark: #323232;
 $simple-gradient: $clr-primary, $clr-secondary;
 $complex-gradient: $clr-primary, $clr-secondary, $clr-accent;
 
+$scheme-simple-gradient: $clr-natural-light, $simple-gradient;
+
 @mixin color-scheme($text, $bg) {
-  background-color: $bg;
+
+  @if list.length($bg) == 1 {
+    background-color: $bg;
+  } @else {
+    background-image: linear-gradient(to top left, $bg);
+  }
   color: $text;
 }
+
+
