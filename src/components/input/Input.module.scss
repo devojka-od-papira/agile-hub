@@ -1,0 +1,19 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/typography";
+
+.input {
+  @include color-scheme($clr-natural-dark, $clr-natural-light);
+  @include h4;
+
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  outline: none;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input::placeholder {
+  color: $clr-primary;
+}
