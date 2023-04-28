@@ -10,6 +10,7 @@ $simple-gradient: $clr-primary, $clr-secondary;
 $complex-gradient: $clr-primary, $clr-secondary, $clr-accent;
 
 $scheme-simple-gradient: $clr-natural-light, $simple-gradient;
+$scheme-complex-gradient: $clr-natural-dark, $complex-gradient;
 
 @mixin color-scheme($text, $bg) {
 

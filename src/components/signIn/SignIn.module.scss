@@ -1,0 +1,17 @@
+@import "src/assets/styles/colors";
+
+.signIn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hr {
+  @include color-scheme($scheme-complex-gradient...);
+
+  height: 3px;
+  margin: 60px 0 50px 0;
+  max-width: 300px;
+  padding: 0 20px;
+  border-radius: 50px;
+}
