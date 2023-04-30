@@ -1,10 +1,14 @@
 @use 'sass:list';
 
-  $clr-primary: #4E2A40;
+$clr-primary: #4E2A40;
 $clr-secondary: #876472;
 $clr-accent: #F67673;
+$clr-easy-natural-light: #FDF7EF;
 $clr-natural-light: #E3D4B6;
 $clr-natural-dark: #323232;
+
+$rgba-primary: rgba(78, 42, 64, 0.5);
+
 
 $simple-gradient: $clr-primary, $clr-secondary;
 $complex-gradient: $clr-primary, $clr-secondary, $clr-accent;

@@ -1,9 +1,11 @@
+@import "src/assets/styles/colors";
+
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #E3D4B6;
+  background-color: $clr-natural-light;
 }
 
 .drops {
@@ -12,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FDF7EF;
+  background-color: $clr-easy-natural-light;
   width: 525px;
   height: 620px;
 }
@@ -23,7 +25,7 @@
   height: 150px;
   background-color: transparent;
   border-radius: 64% 36% 48% 52% / 38% 47% 64% 62% ;
-  box-shadow: inset 10px 10px 10px rgba(78, 42, 64, 0.5),
+  box-shadow: inset 10px 10px 10px $rgba-primary,
                15px 25px 10px rgba(78, 42, 64, 0.1),
                 15px 20px 20px rgba(78, 42, 64, 0.5),
               inset -10px -10px 15px rgba(227, 212, 182, 0.9);
@@ -38,7 +40,7 @@
   position: absolute;
   top: 35px;
   left: 35px;
-  background-color:  #fcfdf3;
+  background-color: $clr-easy-natural-light;
   width: 25px;
   height: 25px;
   border-radius: 71% 29% 46% 54% / 41% 57% 43% 59% ;
@@ -53,7 +55,7 @@
   position: absolute;
   top: 35px;
   left: 65px;
-  background-color: #fcfdf3;
+  background-color: $clr-easy-natural-light;
   width: 10px;
   height: 10px;
   border-radius: 68% 42% 32% 65% / 61% 50% 50% 42%;
