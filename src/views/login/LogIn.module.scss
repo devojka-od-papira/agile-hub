@@ -26,8 +26,8 @@
   background-color: transparent;
   border-radius: 64% 36% 48% 52% / 38% 47% 64% 62% ;
   box-shadow: inset 10px 10px 10px $rgba-primary,
-               15px 25px 10px rgba(78, 42, 64, 0.1),
-                15px 20px 20px rgba(78, 42, 64, 0.5),
+               15px 25px 10px $rgba-natural-dark,
+                15px 20px 20px $rgba-primary,
               inset -10px -10px 15px rgba(227, 212, 182, 0.9);
   transition: 0.5s ease-in-out;
 }
