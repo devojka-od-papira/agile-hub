@@ -28,7 +28,7 @@
   box-shadow: inset 10px 10px 10px $rgba-primary,
                15px 25px 10px $rgba-natural-dark,
                 15px 20px 20px $rgba-primary,
-              inset -10px -10px 15px rgba(227, 212, 182, 0.9);
+              inset -10px -10px 15px $rgba-natural-light;
   transition: 0.5s ease-in-out;
 }
 .drop:nth-child(1){
